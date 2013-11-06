@@ -460,7 +460,7 @@ pre code {
   padding: 0;
 }
 
-table {
+/*table {
   background: #fff6e9;
   display: table;
   width: 100%;
@@ -497,7 +497,7 @@ td:last-child, th:last-child {
 
 tr:last-child td {
   border-bottom: none;
-}
+}*/
 
 dl {
   margin: .7em 0 20px;

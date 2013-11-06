@@ -120,9 +120,9 @@ ul li {
   background: transparent url(../images/chevron-2x.png) left 15px no-repeat;
 }
 
-table {
+/*table {
   border-bottom: 4px solid #bdb6ad;
-}
+}*/
 
 th {
   border-width: 0 4px 4px 0;

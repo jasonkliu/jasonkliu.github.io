@@ -140,8 +140,8 @@ header {
   position: relative;
   z-index: 2;
   margin: 0 auto;
-  max-width: 600px;
-  top: 38px;
+  max-width: 700px;
+  top: 18px;
 }
 
 header span.ribbon-inner {
@@ -183,7 +183,7 @@ header h1 {
   color: #ece4d8;
   text-align: center;
   line-height:1;
-  padding: 14px 20px 0;
+  padding: 5px 20px 0;
 }
 
 header h2 {

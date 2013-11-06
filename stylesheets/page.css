@@ -226,6 +226,14 @@
     .main section.page1 {
       background:rgb(230, 217, 200);
     }
+
+
+    .main section.page1 .page_container {
+      overflow: hidden;
+      width: 900px;
+      margin-top: -50px;
+      /*right: -285px;*/
+    }
     .main section.page1 h1 {
       text-align: left;
       padding: 0;
@@ -235,7 +243,7 @@
     }
     .main section.page1 h2 {
       color: rgba(0,0,0,0.85);
-      text-align: center;
+      text-align: left;
       width: 435px;
       line-height: 160%;
     }
@@ -258,7 +266,7 @@
       margin-left: -1095px;
     }
     .main section.page2 .page_container {
-      margin-top: 240px;
+      margin-top: -50px;
       overflow: hidden;
     }
     .main section.page2 h1 {

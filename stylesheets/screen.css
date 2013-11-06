@@ -143,7 +143,7 @@ header {
   width: 700px;
   left: 50%;
   margin-left: -350px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 header span.ribbon-inner {
@@ -185,14 +185,14 @@ header h1 {
   color: #ece4d8;
   text-align: center;
   line-height:1;
-  padding: 5px 20px 0;
+  padding: 5px 20px 5px;
 }
 
 header h2 {
   background-color: #7c334f;
   font: bold italic .85em/1.5 Georgia, Times, “Times New Roman”, serif;
   color: #e69b95;
-  padding-bottom: 14px;
+  padding-bottom: 4px;
   margin-top: -3px;
   text-align: center;
 }

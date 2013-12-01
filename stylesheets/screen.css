@@ -88,6 +88,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  /* ADD BACKGROUND IMAGE HERE */
+  background-image:url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 ol, ul {
   list-style: none;
@@ -143,7 +148,7 @@ header {
   width: 700px;
   left: 50%;
   margin-left: -350px;
-  margin-top: 20px;
+  margin-top: -20px;
 }
 
 header span.ribbon-inner {
@@ -273,6 +278,7 @@ section#main_content {
   z-index: 2;
   padding: 20px 82px 0;
   min-height:185px;
+  font-size: 18px;
 }
 
 /* footer */

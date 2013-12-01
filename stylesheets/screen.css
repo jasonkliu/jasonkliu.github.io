@@ -88,11 +88,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  /* ADD BACKGROUND IMAGE HERE */
-  background-image:url('images/background.jpg');
-  background-size: cover;
+  /* NOT ACTUAL BODY CSS LOOK BELOW
+  background-image:url("../images/background.jpg");
+  background-size: cover; 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 ol, ul {
   list-style: none;
@@ -376,6 +376,11 @@ body {
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
+  /* ADD BACKGROUND IMAGE HERE */
+  background-image:url("../images/background.jpg");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a, a:hover {

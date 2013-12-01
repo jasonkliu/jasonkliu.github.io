@@ -88,11 +88,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  /* NOT ACTUAL BODY CSS LOOK BELOW
-  background-image:url("../images/background.jpg");
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat; */
 }
 ol, ul {
   list-style: none;
@@ -187,7 +182,8 @@ header h1 {
   font-weight: 800;
   font-style: normal;
   text-transform: uppercase;
-  color: #ece4d8;
+  color: #f5ebe1;
+  /* color: #ece4d8; */
   text-align: center;
   line-height:1;
   padding: 5px 20px 5px;
@@ -206,12 +202,12 @@ section#downloads,
 div#no-downloads {
   position: relative;
   display: block;
-  height: 197px;
+  height: 157px; /* down from 197 */
   width: 550px;
   padding-bottom: 150px;
   margin: -80px auto -150px;
   z-index: 1;
-  background: transparent url(../images/bg-ramp.jpg) center 171px no-repeat;
+  /* background: transparent url(../images/bg-ramp.jpg) center 171px no-repeat; */
 }
 
 div#no-downloads span.inner {
@@ -275,19 +271,22 @@ span.banner-fix {
 }
 
 section#main_content {
+  background: #f5ebe1; 
   z-index: 2;
-  padding: 20px 82px 0;
+  padding: 20px 62px 0;
   min-height:185px;
   font-size: 18px;
+  margin: 60px;
 }
 
 /* footer */
 
 footer {
-  background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;
+  /* background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat; */
+  background: #f5ebe1; 
   padding-top: 104px;
   margin: -94px auto 40px;
-  max-width: 560px;
+  max-width: 550px; /* down from 560 */
   text-align: center;
 }
 
@@ -372,15 +371,15 @@ footer span.octocat {
 /* content */
 
 body {
-  background: #ece4d8;
+  background: #f5ebe1; 
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
   /* ADD BACKGROUND IMAGE HERE */
   background-image:url("../images/background.jpg");
-  /* background-size: cover; */
+  background-size: auto;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 a, a:hover {

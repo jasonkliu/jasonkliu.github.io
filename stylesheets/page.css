@@ -22,12 +22,7 @@
     a {
       text-decoration: none;
     }
-
-	
-    ul, li {
-	margin-top: 0;
-	margin: 0;
-    }
+    
     
     /*h1, h2 {
       width: 100%;
@@ -249,7 +244,7 @@
     .main section.page1 h2 {
       color: rgba(0,0,0,0.85);
       text-align: left;
-      /* width: 435px; */
+      width: 435px;
       line-height: 160%;
     }
     .main section .page_container .btns {
@@ -273,17 +268,7 @@
     .main section.page2 .page_container {
       margin-top: -50px;
       overflow: hidden;
-      margin: 0;
-      /* left: -18%;
-      width: 435px; */
     }
-    /* .main section.page2 .right_side {
-      margin-top: -50px;
-      overflow: hidden; 
-      margin-left: 335px;  
-      left: 38%; 
-      width: 900px;
-    } */
     .main section.page2 h1 {
       text-align: center;
       padding: 0;

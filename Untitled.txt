@@ -1,0 +1,65 @@
+<div class="carousel-inner">
+			  <div class="item active">
+				<img src="pictures/photo.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Silly Putty Protocol, Fall 2012</h4>
+				  <p>Weekly Classroom Program</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/image_1.jpeg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Silly Putty Protocol, Fall 2012</h4>
+				  <p>Weekly Classroom Program</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/image.jpeg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Silly Putty Protocol, Fall 2012</h4>
+				  <p>Weekly Classroom Program</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/1.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Demos Outdoors</h4>
+				  <p>Communiversity Day</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/2.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Demos Outdoors</h4>
+				  <p>Communiversity Day</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/3.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>Demos in the Classroom</h4>
+				  <p>Weekly Classroom Program</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/STARLAB.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>StarLabs</h4>
+				  <p>Inflatable Planetarium</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/StarLab 001.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>StarLabs</h4>
+				  <p>Inflatable Planetarium</p>
+				</div>
+			  </div>
+			  <div class="item" interval="500">
+				<img src="pictures/StarLab 002.jpg" height="525" width="933" alt="">
+				<div class="carousel-caption">
+				  <h4>StarLabs</h4>
+				  <p>Inflatable Planetarium</p>
+				</div>
+			  </div>
+			</div>

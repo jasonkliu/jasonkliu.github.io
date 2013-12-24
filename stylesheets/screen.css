@@ -418,12 +418,13 @@ ol {
 }
 
 ul {
-  margin: .7em 0;
+  /* margin: .7em 0; */
   padding-left: 1.35em;
 }
 
 ul li {
-  padding-left: 10px;
+  margin: 0;
+  padding-left: 15px;
   background: transparent url(../images/chevron.png) left 6px no-repeat;
 }
 

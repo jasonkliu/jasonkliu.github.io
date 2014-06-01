@@ -191,7 +191,8 @@ header h1 {
 
 header h2 {
   background-color: #7c334f;
-  font: bold .85em/1.5 Georgia, Times, “Times New Roman”, serif;
+  /*font: bold .85em/2.0 Georgia, Times, “Times New Roman”, serif;*/
+  font-family: 'Roboto', serif;
   color: #f4ffb2;
   padding-bottom: 4px;
   margin-top: -3px;
@@ -320,7 +321,9 @@ footer span.ribbon-inner p {
   background-color: #7c334f;
   margin: 0;
   color: #e69b95;
-  font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;
+  /*font: bold italic 12px/1 Georgia, Times, “Times New Roman”, serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
   padding-bottom:4px;
 }
 

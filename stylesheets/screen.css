@@ -112,6 +112,14 @@ header, footer, section {
 
 /* STYLES */
 
+div.mainback {
+  background-image:url("../images/background.jpg");
+  background-size: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
 div.shell {
   display: block;
   width: 670px;
@@ -378,8 +386,7 @@ body {
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
-  /* ADD BACKGROUND IMAGE HERE */
-  background-image:url("../images/background.jpg");
+  /* ADD BACKGROUND IMAGE HERE - it is now in the mainback div for index.html */
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;*/

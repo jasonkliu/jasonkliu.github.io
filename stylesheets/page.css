@@ -213,7 +213,7 @@ code.js {
 }*/
 .main section .page_container {
   position: relative;
-  top: 25%;
+  top: 20%;             /* Top margin */
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
@@ -234,15 +234,14 @@ code.js {
   background-size: 100%;
   }
   .page1 {
-    background:rgb(230, 217, 200);  
+    background: #8fc9c1;
   }
   .page2 {
-    background: #555557; 
+    background: #d5fac4;
   }
   .page3 {
     background: #eff5fa;
   }
-
 
 .main section.page1 .page_container,
 .main section.page2 .page_container, {
@@ -297,12 +296,14 @@ code.js {
   left: 18%;
   width: 435px; 
 }*/
+.main section.page1 .right_side,
 .main section.page2 .right_side {
-  margin-top: -350px;
+  margin-top: -375px; */
+  /*top: 10%;  */           /* Top margin */
   overflow: hidden; 
-  margin-left: 835px;  
+  margin-left: 900px;  
   left: 38%; 
-  width: 900px;
+  width: 267px;           /* Width of image */
 } 
 /*.main section.page2 h1 {
   text-align: center;

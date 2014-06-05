@@ -275,17 +275,17 @@ body {
 	margin : 5px;
 }
 
-
+/* Main sections paragraph text colors */
 .main section p {
   text-align: left;
   width: 435px;
   line-height: 160%;
   }
   .page1 {
-    color: #332a55;
+    color: #330099;
   }
   .page2 {
-    color: rgba(200,139,1,0.85);
+    color: #290fe2;
   }
 
 .main section .page_container .btns {

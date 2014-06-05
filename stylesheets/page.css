@@ -15,7 +15,7 @@ body {
 .wrapper {
 	height: 100% !important;
 	height: 100%;
-	margin: 0 auto; 
+	margin: 0 auto;
 	overflow: hidden;
 }
 
@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-	
+
 ul, li {
 	margin-top: 0;
 	margin: 0;
@@ -110,7 +110,7 @@ code.js {
   color: white;
   margin: 0;
 }
-   
+
 .main h1.demo1 {
   background: #1ABC9C;
 }
@@ -257,7 +257,17 @@ code.js {
   margin-bottom: 15px;
   font-size: 70px;
   color: black;
-  }
+}
+
+/* Edit the h2 headings on the projects page */
+.main section h2 {
+	text-align: left;
+	padding: 0;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: #ac1351;
+}
+
 
 .main section p {
   text-align: left;
@@ -292,19 +302,19 @@ code.js {
   margin-top: -50px;
   margin-right: 1000px;
   overflow: hidden;
-  // margin: 0; 
+  // margin: 0;
   left: 18%;
-  width: 435px; 
+  width: 435px;
 }*/
 .main section.page1 .right_side,
 .main section.page2 .right_side {
   margin-top: -375px; */
   /*top: 10%;  */           /* Top margin */
-  overflow: hidden; 
-  margin-left: 900px;  
-  left: 38%; 
+  overflow: hidden;
+  margin-left: 900px;
+  left: 38%;
   width: 267px;           /* Width of image */
-} 
+}
 /*.main section.page2 h1 {
   text-align: center;
   padding: 0;

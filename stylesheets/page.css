@@ -251,6 +251,13 @@ code.js {
   /*right: -285px;*/
 }
 
+.main section.page3 .page_container {
+	overflow: hidden;
+	width: 900px;
+	margin-top: 0px; /* If -50, then it's too high */
+	/*right: -285px;*/
+}
+
 .main section h1 {
   text-align: left;
   padding: 0;
@@ -314,7 +321,8 @@ body {
   width: 435px;
 }*/
 .main section.page1 .right_side,
-.main section.page2 .right_side {
+.main section.page2 .right_side,
+.main section.page3 .right_side {
   margin-top: -375px; */
   /*top: 10%;  */           /* Top margin */
   overflow: hidden;
@@ -341,13 +349,8 @@ body {
   color: #FFF;
   }
 
-.main section.page3 .page_container {
-  overflow: hidden;
-  width: 900px;
-  margin-top: -50px;
-  /*right: -285px;*/
-}
-.main section.page3 h1 {
+
+/*.main section.page3 h1 {
   text-align: left;
   padding: 0;
   margin-bottom: 0;
@@ -361,7 +364,7 @@ body {
   line-height: 160%;
   font-weight: 100;
   font-size: 21px;
-}
+}*/
 
 /* Disabled onepage-scroll: when fallback is set to more than page width */
 

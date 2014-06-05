@@ -261,11 +261,18 @@ code.js {
 
 /* Edit the h2 headings on the projects page */
 .main section h2 {
-	text-align: left;
-	padding: 0;
-	margin-bottom: 15px;
+	/*text-align: left;*/
+	/*padding: 0;*/
+	/*margin-bottom: 15px;*/
 	font-size: 15px;
 	color: #ac1351;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style : normal;
+	color : #d64937;
+	margin : 5px;
 }
 
 
@@ -275,7 +282,7 @@ code.js {
   line-height: 160%;
   }
   .page1 {
-    color: rgba(0,139,31,0.85);
+    color: #332a55;
   }
   .page2 {
     color: rgba(200,139,1,0.85);

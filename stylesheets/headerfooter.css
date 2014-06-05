@@ -82,6 +82,9 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* The above block resets all styles, so manually set it to bold */
+strong { font-weight: bold; }
+
 /* edit header */
 
 header {
@@ -151,7 +154,7 @@ header h2 {
 
 footer {
   /* background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat; */
-  background: #f5ebe1; 
+  background: #f5ebe1;
   padding-top: 104px;
   margin: -94px auto 40px;
   max-width: 550px; /* down from 560 */
@@ -242,7 +245,7 @@ footer span.octocat {
 /* content */
 
 body {
-  background: #f5ebe1; 
+  background: #f5ebe1;
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
@@ -256,4 +259,3 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', Myriad, Calibri, sans-serif;
   font-weight: bold;
 }
-

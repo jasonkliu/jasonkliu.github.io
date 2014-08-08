@@ -3,7 +3,7 @@
 # Build Environment
 build_environment: ubuntu1204
 
-# Language 
+# Language
 language: ruby
 
 # Version Numbers
@@ -11,10 +11,16 @@ language: ruby
 rvm:
  - 1.9.3
 
+# Environment Variables (speed up html-proof install)
+env:
+ global:
+   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
 # Jobs to test on the script
 script:
  - bundle exec jekyll hyde  --trace
  - bundle exec jekyll build --trace
+ - bundle exec htmlproof ./_site
 
 # Notifications
 notifications:

@@ -1,7 +1,14 @@
 document.addEventListener('DOMContentLoaded', function (event) {
   var counter = 1;
-  function gensource(i) {
-    var e = 'images/full/pandl/';
+  var album = 1;
+  function gensource(i, j) {
+    album = j;
+    var e = 'images/full/';
+    if (j) {
+      e += 'pandl/';
+    } else {
+      e += 'handb/';
+    }
     if (i < 10) {
       e += '0';
     }
@@ -19,11 +26,26 @@ document.addEventListener('DOMContentLoaded', function (event) {
       prev.style.display = 'inline';
     else
       prev.style.display = 'none';
-    document.getElementById('currentImage').src = gensource(counter);
+    document.getElementById('currentImage').src = gensource(counter, album);
   }
   prev.style.display = 'none';
   var next = document.getElementById('next');
   var currentImage = document.getElementById('currentImage');
+  var link1 = document.getElementById('link1');
+  var link2 = document.getElementById('link2');
+  link2.onclick = function () {
+    counter = 1;
+    prev.style.display = 'none';
+    if (link2.text.includes('h')) {
+      document.getElementById('currentImage').src = gensource(counter, 0);
+    } else {
+      document.getElementById('currentImage').src = gensource(counter, 1);
+    }
+    var link3 = link2.text;
+    link2.text = link1.text;
+    link1.text = link3;
+    return false;
+  };
   currentImage.onclick = inc;
   next.onclick = inc;
   prev.onclick = function () {
@@ -33,6 +55,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     if (counter == 1)
       prev.style.display = 'none';
-    document.getElementById('currentImage').src = gensource(counter);
+    document.getElementById('currentImage').src = gensource(counter, album);
   };
 });

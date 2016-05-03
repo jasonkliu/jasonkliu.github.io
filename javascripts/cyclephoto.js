@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
     if (counter > 1)
       prev.style.display = 'inline';
+    else
+      prev.style.display = 'none';
     document.getElementById('currentImage').src = gensource(counter);
   }
   prev.style.display = 'none';

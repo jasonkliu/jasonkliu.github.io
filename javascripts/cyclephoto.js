@@ -8,12 +8,29 @@ document.addEventListener('DOMContentLoaded', function (event) {
     e += i + '.jpg';
     return e;
   }
-  var next = document.getElementById('currentImage');
-  next.onclick = function () {
+  var prev = document.getElementById('prev');
+  function inc() {
+    // click on image or next
     counter++;
     if (counter == 13) {
       counter = 1;
     }
+    if (counter > 1)
+      prev.style.display = 'inline';
+    document.getElementById('currentImage').src = gensource(counter);
+  }
+  prev.style.display = 'none';
+  var next = document.getElementById('next');
+  var currentImage = document.getElementById('currentImage');
+  currentImage.onclick = inc;
+  next.onclick = inc;
+  prev.onclick = function () {
+    counter--;
+    if (counter == 0) {
+      counter = 12;
+    }
+    if (counter == 1)
+      prev.style.display = 'none';
     document.getElementById('currentImage').src = gensource(counter);
   };
 });

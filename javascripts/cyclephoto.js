@@ -23,19 +23,19 @@ document.addEventListener('DOMContentLoaded', function (event) {
       counter = 1;
     }
     if (counter > 1)
-      prev.style.display = 'inline';
+      prev.style.visibility = 'visible';
     else
-      prev.style.display = 'none';
+      prev.style.visibility = 'hidden';
     document.getElementById('currentImage').src = gensource(counter, album);
   }
-  prev.style.display = 'none';
+  prev.style.visibility = 'hidden';
   var next = document.getElementById('next');
   var currentImage = document.getElementById('currentImage');
   var link1 = document.getElementById('link1');
   var link2 = document.getElementById('link2');
   link2.onclick = function () {
     counter = 1;
-    prev.style.display = 'none';
+    prev.style.visibility = 'hidden';
     if (link2.text.includes('h')) {
       document.getElementById('currentImage').src = gensource(counter, 0);
     } else {
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
       counter = 12;
     }
     if (counter == 1)
-      prev.style.display = 'none';
+      prev.style.visibility = 'hidden';
     document.getElementById('currentImage').src = gensource(counter, album);
   };
 });

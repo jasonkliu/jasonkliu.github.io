@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=640" />
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <link rel="stylesheet" href="stylesheets/onepage-scroll.css" type='text/css'>
+  <link rel="stylesheet" href="stylesheets/headerfooter.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/page.css"/>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <script type="text/javascript" src="javascripts/modernizr.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.onepage-scroll.js"></script>
+  <script type "text/javascript" src="javascripts/jquery.cycle2.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#main_content').headsmart()
+    })
+  </script>
+  <script>
+  $(document).ready(function(){
+    $(".main").onepage_scroll({
+      sectionContainer: "section",
+      responsiveFallback: 600
+    });
+	});
+  </script>
+  <title>Jason Liu - Projects</title>
+</head>
+
+<body>
+   <header>
+   <br><br>
+      <span class="ribbon-outer">
+      <span class="ribbon-inner">
+        <h1>Jason Liu</h1>
+        <h2>Computational Chemist at Yale</h2>
+      </span>
+      <span class="left-tail"></span>
+      <span class="right-tail"></span>
+    </span>
+  </header>
+
+  <div class="main">
+    <section class="page1">
+      <div class="page_container">
+
+        <h1>All Around Yale</h1>
+        <h2>Android app showing current information for students</h2>
+
+        <p>
+        I realized that there wasn't a convenient way to access information that
+        I wanted to see each day - food menus, class lists, a map of buildings, and the academic calendar.
+        So I created an app for Yale students to access important information all around campus!
+
+        Here's the current feature list:
+
+        <br><br>
+        <strong>Dining</strong>  -  Current dining hall menus, updated daily <br>
+        <strong>Weather</strong>  -  Access the current weather of New Haven as well as other stats such as Sunrise/Sunset times <br>
+        <strong>Bluebook</strong>  -  Links to all of the current course offerings, online bluebook services, and list of majors <br>
+        <strong>Laundry</strong>  -  Access to each laundry room on campus showing which machines are available and taken <br>
+        <strong>Map</strong>  -  A list of all of the building abbreviations which are linked to addresses through Google Maps <br>
+        <strong>Hours</strong>  -  Times, places, and addresses of important buildings around campus as well as restaurants <br>
+        <strong>Links</strong> -  A list of important links, the course offerings, online bluebook services, and list of majors <br>
+        <strong>Calendar</strong>  -  The 2014-2015 Academic Year calendar with all of the important dates.
+
+        </p> </div>
+
+        <div class="right_side">
+          <div class="cycle-slideshow">
+            <img src="images/screenshots/1_main.png" height="512" width="267" alt="">
+            <img src="images/screenshots/2_weather.png" height="512" width="267" alt="">
+            <img src="images/screenshots/3_dining.png" height="512" width="267" alt="">
+            <img src="images/screenshots/4_dining2.png" height="512" width="267" alt="">
+            <img src="images/screenshots/5_map.png" height="512" width="267" alt="">
+            <img src="images/screenshots/6_laundry.png" height="512" width="267" alt="">
+            <img src="images/screenshots/7_hours.png" height="512" width="267" alt="">
+            <img src="images/screenshots/8_calendar.png" height="512" width="267" alt="">
+          </div>
+
+        <br>
+        <center>
+          <a href="https://play.google.com/store/apps/details?id=com.jasonkliu.allaroundyale" target="_blank">
+            <img src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png"
+                alt="Get it on Google Play" /> </a>
+        </center>
+
+        <p> Scroll down or press the down arrow ... </p>
+
+  	   </div>
+    </section>
+
+    <section class="page2">
+      <div class="page_container">
+
+        <h1>Wifi Reporter</h1>
+        <h2>Android app to calculate wireless speed</h2>
+
+        <p>
+        This app is used to diagnose wireless issues for students and report them so they can be fixed.
+        Currently, it tests wireless speed by checking the connection speed to an internally hosted test file.
+        The app sends the report data to a separate Rails app which can be accessed by technicians, enabling them
+        to identify the correct building location and what issues the connection has. <br><br>
+
+        To see the code on Github, click here:
+        <a href="https://www.github.com/YaleSTC/wifi-reporter-android" target="_blank">
+          github.com/YaleSTC/wifi-reporter-android </a>
+
+        <br><br><br><br><br><br><br><br><br><br><br>
+        </p> </div>
+
+        <div class="right_side">
+          <div class="cycle-slideshow">
+            <img src="images/screenshots/9_launch.png" height="512" width="267" alt="">
+            <img src="images/screenshots/10_testing.png" height="512" width="267" alt="">
+            <img src="images/screenshots/11_sending.png" height="512" width="267" alt="">
+            <img src="images/screenshots/12_results.png" height="512" width="267" alt="">
+          </div>
+        <br>
+        <p> Scroll down or press the down arrow ... </p>
+        </div>
+
+    </section>
+
+    <section class="page3">
+      <div class="page_container">
+        <h1>Chrome Start Page</h1>
+        <h2>customized home &amp; new tab page with extension </h2>
+
+
+        This is a simple Chrome extension to replace the "New Tab" page, which is ordinarily opened
+        every time you create a new tab. It is fully customizable with your favorite pages and the current
+        time, which removes other distractions. In addition, the bottom feed cycles through a list of quotes
+        which can also be customized. The extension replaces this page as the "New Tab" page, and it can
+        also be set as your homepage for continuity.<br><br><br>
+
+        <center>
+        <img src="images/screenshots/chromestartpage.png" height="256.5" width="366.75" alt="">
+        <center> <br>
+
+        A working demo of the page can be seen here:
+        <a href="http://www.jasonkliu.com/start/newtab.html" target="_blank">
+          jasonkliu.com/start/newtab.html </a> <br>
+
+        To see the code on Github, click here:
+        <a href="https://www.github.com/jasonkliu/ChromeStartPage" target="_blank">
+          github.com/jasonkliu/ChromeStartPage </a>
+
+  	  </div>
+    </section>
+  </div>
+
+  </body>
+</html>
+
+<!-- Content created by Jason Liu. Thanks for github.com/peachananr/onepage-scroll. -->
